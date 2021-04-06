@@ -10,17 +10,22 @@
 }
 .topnav {
     background-color: var(--brown);
-    overflow: hidden;
+    overflow-x: hidden;
+    position:fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    height:100%;
+    width:160px;
   }
   
   /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
     color: var(--white);
-    text-align: center;
-    padding: 14px 16px;
+    padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
+    display:block;
   }
   
   /* Change the color of links on hover */
@@ -64,4 +69,9 @@ body {
 
 .redact {
     background-color: var(--black);
+}
+
+.main{
+  margin-left:160px;
+  padding:0px 10px;
 }
