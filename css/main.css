@@ -8,7 +8,7 @@
     --white: #f2f2f2;
     --black: black;
 }
-.topnav {
+.sidenav {
     background-color: var(--brown);
     overflow-x: hidden;
     position:fixed;
@@ -20,7 +20,7 @@
   }
   
   /* Style the links inside the navigation bar */
-.topnav a {
+.sidenav a {
     color: var(--white);
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -29,13 +29,13 @@
   }
   
   /* Change the color of links on hover */
-.topnav a:hover {
+.sidenav a:hover {
     background-color: var(--gold);
     color: var(--black);
   }
   
   /* Add a color to the active/current link */
-.topnav a.active {
+.sidenav a.active {
     background-color: var(--silver);
     color: var(--white);
   }
